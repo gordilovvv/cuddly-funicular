@@ -1,0 +1,1 @@
+import{K as o,o as a,m as s,w as n,r,I as u,a as l}from"./index.72b6481c.js";const f={name:"AppLayout",setup(p){const e=o();return(t,c)=>(a(),s(u(l(e).meta.layoutComponent),null,{default:n(()=>[r(t.$slots,"default")]),_:3}))}};export{f as default};
