@@ -1,0 +1,21 @@
+.alert {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-surface);
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-left: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    min-width: 0;
+    flex: auto;
+}
+
+.button {
+    flex-shrink: 0;
+}

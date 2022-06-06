@@ -1,0 +1,76 @@
+.promo {
+    position: relative;
+    padding: 91px 8px 0;
+    flex-shrink: 0;
+    margin-top: auto;
+    color: var(--color-typo-base);
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    user-select: text;
+}
+
+.wrap {
+    position: relative;
+    padding: 82px 16px 16px;
+    background: linear-gradient(180deg, var(--color-surface) 0%, rgba(242, 243, 249, 0) 100%);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 160px;
+    height: 137px;
+    background-image: url('/images/cryptocard-sidebar.png');
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 0);
+    z-index: 2;
+
+    @include retina2x() {
+        background-image: url('/images/cryptocard-sidebar@2x.png');
+    }
+
+    @include retina3x() {
+        background-image: url('/images/cryptocard-sidebar@3x.png');
+    }
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.text {
+    color: var(--color-typo-ghost);
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: var(--color-typo-base);
+    background-color: var(--color-stroke);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+    @include hover {
+        &:hover {
+            color: var(--color-typo-inverse);
+            background-color: var(--color-primary);
+        }
+    }
+}

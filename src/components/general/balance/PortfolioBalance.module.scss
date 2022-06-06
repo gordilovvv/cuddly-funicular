@@ -1,0 +1,20 @@
+.balance {
+    font-size: 34px;
+    line-height: 1;
+    --decimals-size: 18px;
+}
+
+.amount
+.ghost {
+    font-weight: 400;
+}
+
+.amount {
+    font-size: inherit;
+    color: var(--color-typo-base);
+}
+
+.ghost {
+    font-size: var(--decimals-size);
+    color: var(--color-typo-ghost);
+}

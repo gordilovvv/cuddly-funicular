@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: auto;
+    will-change: transform;
+    box-sizing: border-box;
+    // z-index: 950;
+
+    &Wrap {
+        padding: 16px;
+        background-color: var(--color-essential);
+        box-shadow: 0px 16px 40px #E3E2E7;
+        border-radius: 16px;
+    }
+}
+
+@include min1026() {
+    .content {
+        &.pane {
+            width: auto;
+            max-width: 50%;
+            margin-top: 16px;
+        }
+    }
+}

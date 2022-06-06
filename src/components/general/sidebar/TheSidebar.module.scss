@@ -1,0 +1,25 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    width: 282px;
+    padding: 20px 8px;
+    border-right: 1px solid var(--color-stroke);
+    overflow-y: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    height: 40px;
+    padding: 0 8px;
+    margin-bottom: 60px;
+}
+
+.user {
+    margin-bottom: 40px;
+}

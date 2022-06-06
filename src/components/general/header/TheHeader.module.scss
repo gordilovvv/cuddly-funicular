@@ -1,0 +1,30 @@
+.header {
+    position: relative;
+    background-color: var(--color-essential);
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    & + .button {
+        margin-left: 16px;
+    }
+}

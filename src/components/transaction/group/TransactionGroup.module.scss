@@ -1,0 +1,13 @@
+.group {
+    & + .group {
+        margin-top: 60px;
+    }
+}
+
+.title {
+    font-weight: var(--text-headline-font-weight);
+    font-size: var(--text-headline-font-size);
+    line-height: var(--text-headline-line-height);
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
